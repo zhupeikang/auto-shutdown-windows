@@ -29,7 +29,7 @@ const server = http.createServer((req, res) => {
         shutdownWindows();
     } else {
         res.writeHead(404, { 'Content-Type': 'text/plain' });
-        res.end('Not Found\n');
+        res.end('Not 2\n');
     }
 });
 
